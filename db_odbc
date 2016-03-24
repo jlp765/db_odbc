@@ -3,7 +3,8 @@
 ## This is the same interface that is implemented for other databases.
 ##
 ## This has NOT yet been (extensively) tested against ODBC drivers for
-## Teradata, Oracle, Sybase, MSSqlvSvr, et. al.  databases.
+## Teradata, et. al. databases.
+## Oracle, Sybase, MSSqlvSvr, Firebird database has been tested.
 ##
 ## Currently all queries are ANSI calls, not Unicode.
 ##
