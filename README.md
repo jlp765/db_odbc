@@ -1,6 +1,13 @@
 # db_odbc
 Nim ODBC library consistent with the nim db_xxxxxx libraries
 
+Currently all queries are ANSI calls, not Unicode.
+
+Tested odbc databases:
+ * Oracle, 
+ * Sybase, 
+ * MSSqlvSvr, 
+ * Firebird
 
 ### History
 This initially started in the Nim standard Library, but was removed because it lacks stability (not extensively tested against many database types.
